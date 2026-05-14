@@ -1,0 +1,24 @@
+/* Aplicando a fonte importada no corpo do texto e nos botões */
+body, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo padrão do botão (inativo) */
+.botao {
+    padding: 10px 20px;
+    font-weight: 400; /* Peso normal */
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+/* A classe .ativo que o JavaScript vai adicionar */
+.ativo {
+    /* Cor de fundo nova e atraente (um azul moderno) */
+    background-color: #2563eb; 
+    color: white; /* Letra branca para contrastar com o fundo azul */
+    border-bottom: 4px solid #16a34a; /* Seu var(--verde) */
+    
+    /* Alterando o peso da fonte conforme pede o desafio */
+    font-weight: 700; 
+}
